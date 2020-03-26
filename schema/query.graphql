@@ -1,0 +1,12 @@
+ # Your API entry point!
+  type Query{
+    hello: String
+    CurrentTime: String
+    loggedUser: User
+    ProductDestaque: Product
+    numbersGames: [Int!]!
+    users: [User]
+    user(id: Int): User
+    perfis: [Perfil]
+    perfil(id: Int): Perfil
+  }

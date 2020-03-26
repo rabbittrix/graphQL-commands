@@ -1,0 +1,10 @@
+ #import User, Perfil from 'user.graphql'
+ #import Product from 'product.graphql'
+ #import Query from 'query.graphql'
+ 
+
+ #scalar Date - return new Date
+  
+ 
+  
+ 
