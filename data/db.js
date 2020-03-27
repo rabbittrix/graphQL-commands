@@ -1,6 +1,10 @@
+let id = 1
+function nextId(){
+    return id++
+}
 const users = [
   {
-    id: 1,
+    id: nextId(),
     name: "James Smith",
     email: "james@gamil.com",
     age: 29,
@@ -8,7 +12,7 @@ const users = [
     status: "ACTIVE"
   },
   {
-    id: 2,
+    id: nextId(),
     name: "Rafael filho",
     email: "rafael@gamil.com",
     age: 22,
@@ -16,7 +20,7 @@ const users = [
     status: "INACTIVE"
   },
   {
-    id: 3,
+    id: nextId(),
     name: "Jessica Lane",
     email: "jessica@gamil.com",
     age: 34,
@@ -30,4 +34,4 @@ const perfis = [
   { id: 2, name: "Admin" }
 ];
 
-module.exports = { users, perfis };
+module.exports = { users, perfis, nextId };
