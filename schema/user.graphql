@@ -11,6 +11,7 @@ type User {
   id: Int
   name: String!
   email: String!
+  password: String
   age: Int
   salary: Float
   vip: Boolean
